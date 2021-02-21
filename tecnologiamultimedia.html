@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es" xml:lang="es">
+
+<!-- Debo aplicarle el object-fit, felxbox y media queries-->
+
+<!-- Bootstrap y ajax-->
+<head>
+
+	<!-- Bootstrap y ajax-->
+	<link rel="stylesheet" type="text/css" href="index.css">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+	<!-- Compatibilidad para Español-->
+	<meta charset="utf-8">
+
+	<!-- Afectan directamente a la barra de navegación-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+	<!-- Para el video a insertar-->
+	
+	
+	<title>
+		Practicas Tecnología Multimedia
+	</title>
+
+	
+
+	<!-- Imagen portada-->
+	<hr>
+
+	<div class="doc">
+		
+		<div class="box">
+			<img src="Foto portada.jpg">
+		</div>
+		
+	</div>
+
+</head>
+<!-- El contenedor 1, que contendrá los tres parrafos
+tendran un flexbox -->
+<body>
+	
+	<!-- Fin Imagen portada-->
+	
+	<!-- Menu o Barra de Navegacion -->
+	<div class="topnav" id="myTopnav">
+ 		<a href="index.html" class="active">Inicio</a>
+  		<a href="https://soundcloud.com/bambatz" target="_blank">SoundCloud</a>
+  		<a href="https://www.youtube.com/channel/UCfCeM5CPnSfcAtYB609NwgQ" target="_blank">Youtube</a>
+  		<a href="https://open.spotify.com/artist/6JxuQjoZJ5F9sh6VX4QhiG?si=gKvgURkgSr6PRJ0bkV8e_A" target="_blank">Spotify</a>
+  		<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+   		 <i class="fa fa-bars"></i>
+  		</a>
+	</div>
+	<!--Fin Menu o Barra de Navegacion -->
+
+	<!-- Seccion 1: texto 1-->
+	<br>
+	<br>
+	<div class="flex-container">
+
+	
+
+		<p>
+			En las practicas de Tecnologías Multimedia, estamos utilizando, HMTL5 y CSS, por ahora.
+		</p>
+
+
+		<p>
+			Trabajaremos cob insercción de imagenes y videos.
+			Más tarde, utilizaremos CSS, para hacer que sea
+			un poco mas resonsive la pagina, en base a resoluciones.
+		</p>
+
+
+		<p>
+			En las practicas de Tecnologías Multimedia, estamos utilizando, HMTL5 y CSS, por ahora.
+		</p>
+	
+	</div>
+
+	<!--Imagen-->
+
+	<section class="flex-container">
+
+		<div>
+
+			<img src="Coconut paradise.jpg">
+			<h2>Cover Art</h2>
+
+		</div>
+
+	</section>
+
+	<!--Fin Imagen-->
+
+
+	<!-- Video -->
+	<section class="flex-container">
+
+		<div>
+
+			<h3>
+				Bambatz - Coconut Paradise 
+			</h3>
+
+			<!--Cancion en MP3 -->
+
+			<audio controls>
+
+  				<source src="Bambatz-Tribal Flavours.mp3" type="audio/mpeg">
+
+			</audio>
+
+			<!--Fin Cancion en MP3 -->
+			<br>
+			<br>
+			<h4>Preview!!!</h4>
+
+				<video width="85%" height="60%" controls autoplay>
+
+  					<source src="Bambatz-Tribal Flavours.mp4" type="video/mp4">
+
+				</video>
+
+		</div>
+
+	</section>
+
+	<!--Fin video-->
+	<br>
+	<br>
+
+	<footer>
+		<hr>
+		<ul style="text-align: center;">
+			<a href="index.html">Contactar</a>
+			<a href="index.html">Política de privacidad</a>
+			<a href="index.html">Mapa Web</a>
+
+		</ul>
+
+	</footer>
+	<br>
+
+<!-- Script para la barra de navegacion-->
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+</body>
+
+
+</html>
+
+
